@@ -10,10 +10,7 @@ const App = () =>
 {
   return (
     <div className="App">
-      {/* <Header />
-    <Sidebar />
-    <MainContent/>
-    <Footer /> */}
+
       <Router>
         <Route exact path="/">
           <Redirect from='/' to='/login' />
@@ -29,3 +26,11 @@ const App = () =>
 }
 
 export default App
+
+// git add . -> Adds all the files which are changed
+// git commit -m "apna message likh de" -> commit changes to git
+// git push origin master(branch-name) -> push code to github
+// git checkout -b alloo(branch-name) -> create new branch
+// git checkout master -> suppose tu allo wali branch mai hai and tujhe wapis master wali branch mai jana hai toh yeh likhna
+// PR -> pull request for code review 
+// rebase and git pull origin master(branch name)

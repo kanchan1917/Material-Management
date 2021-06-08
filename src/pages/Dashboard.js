@@ -13,8 +13,6 @@ const Dashboard = () =>
             <Sidebar />
             <MainContent />
             <Footer />
-
-
         </div>
     )
 }
