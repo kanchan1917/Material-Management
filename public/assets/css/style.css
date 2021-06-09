@@ -4073,3 +4073,6 @@ marquee {
 .stock-image{
   width: 100%;
 }
+.table-padding{
+  padding:0px 21px;
+}

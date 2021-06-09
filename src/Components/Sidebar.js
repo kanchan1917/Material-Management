@@ -1,5 +1,6 @@
 import React from 'react'
 import images from '../images/stock.png'
+import { Link } from 'react-router-dom'
 
 
 const Sidebar = () =>
@@ -17,7 +18,7 @@ const Sidebar = () =>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="nav-link" href="index-0.html">Home</a></li>
+                                <li><Link to="/dashboard" class="nav-link">Home</Link></li>
 
                             </ul>
                         </li>
@@ -25,10 +26,10 @@ const Sidebar = () =>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Stock-Section</span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="nav-link" href="">Stock</a></li>
-                                <li><a class="nav-link" href="">Export data</a></li>
-                                <li><a class="nav-link" href="">Import From File</a></li>
-                                <li><a class="nav-link" href="">History</a></li>
+                                <li><Link to="/stock" class="nav-link">Stock</Link></li>
+                                <li><Link to="/export" class="nav-link">Export Data</Link></li>
+                                <li><Link to="/import" class="nav-link">Import From File</Link></li>
+                                <li><Link to="/history" class="nav-link">History</Link></li>
 
                             </ul>
                         </li>
@@ -38,8 +39,8 @@ const Sidebar = () =>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i> <span>Merchant User</span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="nav-link" href="forms-advanced-form.html">Add Merchant User</a></li>
-                                <li><a class="nav-link" href="forms-editor.html">Merchant User List</a></li>
+                                <li><Link to="/merchantuser" class="nav-link">Add Merchant User</Link></li>
+                                <li><Link to="/merchantList" class="nav-link">Merchant User List</Link></li>
 
                             </ul>
                         </li>
