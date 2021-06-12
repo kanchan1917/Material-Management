@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 
 const MerchantListContent = () =>
@@ -14,18 +16,18 @@ const MerchantListContent = () =>
 
                     <div className="section-body">
 
-                        <h2 style={{textAlign:'center'}}>User Profile Card</h2>
+                        <h2 style={{ textAlign: 'center' }}>User Profile Card</h2>
 
                         <div className="card">
                             <img src="" alt="John" style={{ width: '100%' }} />
                             <h1>John Doe</h1>
                             <p className="title">CEO & Founder, Example</p>
                             <p>Harvard University</p>
-                            <div style={{margin: "24px 0;"}}>
-                                <a href="#"><i className="fa fa-dribbble"></i></a>
-                                <a href="#"><i className="fa fa-twitter"></i></a>
-                                <a href="#"><i className="fa fa-linkedin"></i></a>
-                                <a href="#"><i className="fa fa-facebook"></i></a>
+                            <div style={{ margin: "24px 0;" }}>
+                                <Link><i className="fa fa-dribbble"></i></Link>
+                                <Link><i className="fa fa-twitter"></i></Link>
+                                <Link><i className="fa fa-linkedin"></i></Link>
+                                <Link><i className="fa fa-facebook"></i></Link>
                             </div>
                             <p><button>Contact</button></p>
                         </div>

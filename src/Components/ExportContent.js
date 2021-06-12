@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Stylesheet/exportimport.css'
 
 const ExportContent = () =>
 {
@@ -11,7 +12,7 @@ const ExportContent = () =>
                     </div>
 
 
-                    <div className="section-body">
+                    <div className="section-body exportbody">
                         <div class="row">
                             <div class="col-md-12">
                                 <form method="post" enctype="multipart/form-data" class="form-data">

@@ -1,0 +1,17 @@
+.merchant-user-list-body {
+    width: 60%;
+    margin: auto;
+    box-shadow: 1px 1px 6px grey;
+}
+
+.merchant-user-header {
+    background: linear-gradient( 45deg, #24c2ef, transparent);
+}
+
+.merchant-user-heading {
+    color: white !important;
+}
+.label-data{
+    font-size: 15px !important;
+    padding: 0px;
+}

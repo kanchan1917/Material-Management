@@ -11,10 +11,10 @@ const ImportContent = () =>
                     </div>
 
 
-                    <div className="section-body">
+                    <div className="section-body exportbody">
                         <div class="row">
                             <div class="col-md-12">
-                                <form method="post" enctype="multipart/form-data" class="form-data-style">
+                                <form method="post" enctype="multipart/form-data" class="form-data">
                                     <h3>Import Data from File</h3>
 
                                     <input type="file" name="importData" />
